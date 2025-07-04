@@ -6,6 +6,22 @@ import Image from "next/image"
 
 const heroImages = [
   {
+    src: "./hero-section/Sunshine1.png",
+    title: "Sunshine",
+  },
+  {
+    src: "./hero-section/MistyCold1.png",
+    title: "Nature",
+  },
+  {
+    src: "./hero-section/Cloud1.png",
+    title: "Cloud",
+  },
+  {
+    src: "./hero-section/Wallpaper1.png",
+    title: "Wallpaper",
+  },
+  {
     src: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
     title: "Misty Forest",
     subtitle: "Where silence speaks louder than words",
@@ -193,14 +209,14 @@ export default function HeroSection() {
           {heroImages[currentSlide].subtitle}
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        {/* <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button className="px-8 py-4 bg-gradient-to-r from-green-500 to-blue-500 text-white font-semibold rounded-full hover:from-green-600 hover:to-blue-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
             Browse Gallery
           </button>
           <button className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-semibold rounded-full border border-white/20 hover:bg-white/20 transition-all duration-300 transform hover:scale-105">
             Upload Wallpaper
           </button>
-        </div>
+        </div> */}
       </div>
 
       {/* Progress Bar */}
