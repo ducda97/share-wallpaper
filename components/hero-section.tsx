@@ -6,6 +6,10 @@ import Image from "next/image"
 
 const heroImages = [
   {
+    src: "./hero-section/nature2.png",
+    title: "Nature",
+  },
+  {
     src: "./hero-section/Sunshine1.png",
     title: "Sunshine",
   },
